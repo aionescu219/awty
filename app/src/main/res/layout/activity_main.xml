@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+    <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity">
+
+        <TextView android:text="Enter message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/enterMessage" android:hint="message" android:inputType="text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Enter number" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/enterNumber" android:hint="5551234567" android:inputType="phone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Enter number of minutes between sends" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/enterMinutes" android:hint="5" android:inputType="number" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+
+        <Button android:id="@+id/startButton" android:text="start" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
